@@ -3,9 +3,6 @@
 module SHsC.Lexer (lexIO, lexIOFile)
 where
 
---import Safe
---import Data.Maybe
---import Data.List (foldl')
 import Data.Map(Map)
 import Data.Text(Text)
 import Control.Monad.Error (MonadError(), throwError)
